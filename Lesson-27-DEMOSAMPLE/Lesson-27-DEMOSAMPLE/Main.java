@@ -48,27 +48,27 @@ class Main {
 
 
     char[] sub4 = new char[21];
-    sub[1] ='/u';
-    sub[2] ='/u';
-    sub[3] ='/u';
-    sub[4] ='/u';
-    sub[5] ='/u';
-    sub[6] ='/u';
-    sub[7] ='/u';
-    sub[8] ='/u';
-    sub[9] ='/u';
-    sub[10] ='/u';
-    sub[11] ='/u';
-    sub[12] ='/u';
-    sub[13] ='/u';
-    sub[14] ='/u';
-    sub[15] ='/u';
-    sub[16] ='/u';
-    sub[17] ='/u';
-    sub[18] ='/u';
-    sub[19] ='/u';
-    sub[20] ='/u';
-    sub[21] ='/u';
+    sub[1] ='\u5037';
+    sub[2] ='\u5076';
+    sub[3] ='\u5089';
+    sub[4] ='\u5083';
+    sub[5] ='\u5093';
+    sub[6] ='\u5096';
+    sub[7] ='\u5097';
+    sub[8] ='\u5105';
+    sub[9] ='\u5106';
+    sub[10] ='\u5030';
+    sub[11] ='\u5060';
+    sub[12] ='\u5073';
+    sub[13] ='\u5103';
+    sub[14] ='\u5099';
+    sub[15] ='\u5098';
+    sub[16] ='\u5084';
+    sub[17] ='\u5072';
+    sub[18] ='\u5064';
+    sub[19] ='\u5055';
+    sub[20] ='\u5044';
+    sub[21] ='\u5038';
     
     // Encoding message
     String file = Input.readFile("test.txt");
