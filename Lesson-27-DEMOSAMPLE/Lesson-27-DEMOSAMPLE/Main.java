@@ -138,7 +138,7 @@ String substitutionWrapper(String s, char[] sub, char[] sub2, char[] sub3, char 
     sub4[20] ='\u5044';
     sub4[21] ='\u5038';
     
-    String input = "Hello!";
+    String input = "Hello there!";
     String lvl1 = rot13(input);
     String lvl2 = encode(lvl1);
     String lvl3 = substitutionWrapper(lvl2, sub, sub2, sub3, sub4);
